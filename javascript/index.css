@@ -1,0 +1,54 @@
+body {
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+  'Lucida Sans', Arial, sans-serif;
+  background-image: url("images/wallpaper.jpeg");
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font-weight: 500;;
+}
+#title-el {
+    color:goldenrod;
+    font-style: oblique;
+    font-size: xx-large;
+}
+
+#message-el {
+  color: magenta;
+  font-style: italic;
+  font-size: large;
+}
+
+#button-el {
+  color: white;
+  width: 150px;
+  background: magenta;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  border: none;
+  border-radius: 2px;
+}
+
+.grid {
+  width: 606px;
+  height:606px;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  position: relative;
+}
+
+.square {
+  height:200px;
+  width:200px;
+  justify-content: center;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  display: block;
+}
+
+.puffy {
+  background-image: url("images/smallcutepuffer.png");
+}
